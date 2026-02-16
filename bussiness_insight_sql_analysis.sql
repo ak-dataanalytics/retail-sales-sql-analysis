@@ -234,18 +234,20 @@ where t.rnk <= 3
 -- percentage of total revenue comes from TOP 10 products
 
 
-select round(sum(total_revenue)* 100.0 /
-       sum(total),2) as percnt
+SELECT ROUND(
+       SUM(total_revenue) * 100.0 /
+       (SELECT SUM(sales) FROM sales),
+       2
+) AS percnt
+FROM (
+    SELECT TOP 10 WITH TIES
+           product_id,
+           SUM(sales) AS total_revenue
+    FROM sales
+    GROUP BY product_id
+    ORDER BY total_revenue DESC
+) t;
 
-from (
-select top 10 with ties
-       product_id,
-       product_name,
-       sum(sales) as total_revenue
-from sales 
-group by product_id, product_name
-order by total_revenue desc)t
-cross join (select sum(sales)as total from sales)r
 
 
 --month over month revenue growth 
@@ -345,4 +347,5 @@ select customer_id,
 from sales 
 group by customer_id)t )r
 cross join (select sum(sales)as total from sales)s
+
 )a
