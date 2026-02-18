@@ -2,7 +2,7 @@
 
 ## 1️⃣ Executive Summary
 
-This project analyzes 50,000+ retail transactions (2019–2022) to evaluate revenue performance, customer contribution, and product concentration risk. The objective was to generate business-ready insights using structured SQL analysis including growth metrics and segmentation logic.
+This project analyzes 50,000+ retail transactions (2015–2018) to evaluate revenue performance, customer contribution, and product concentration risk. The objective was to generate business-ready insights using structured SQL analysis including growth metrics and segmentation logic.
 
 ---
 
