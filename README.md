@@ -1,6 +1,6 @@
 # 🛒 Retail Sales Analytics Using SQL
 
-![SQL](https://img.shields.io/badge/SQL-Server-blue?style=flat&logo=microsoftsqlserver) ![Dataset](https://img.shields.io/badge/Dataset-50K%2B%20Transactions-green?style=flat) ![Period](https://img.shields.io/badge/Period-2019--2022-orange?style=flat)
+![SQL](https://img.shields.io/badge/SQL-Server-blue?style=flat&logo=microsoftsqlserver) ![Dataset](https://img.shields.io/badge/Dataset-50K%2B%20Transactions-green?style=flat) ![Period](https://img.shields.io/badge/Period-2015--2018-orange?style=flat)
 
 > Comprehensive retail sales analysis using advanced SQL to evaluate revenue trends, customer retention, product performance, and growth dynamics across 50,000+ transactions spanning 4 years.
 
@@ -31,12 +31,12 @@ This project digs into a real-world retail dataset to answer critical business q
 
 > ⚠️ *Replace the placeholders below with your actual query results*
 
-- 💰 **Total Revenue:** $X | **Total Customers:** X | **Total Products:** X  
-- 🔁 **Repeat customers** generated **X%** of revenue despite being only **X%** of the customer base  
-- 🌍 **X region** contributed the highest revenue share at **X%**  
-- 📦 **Top 10 products** account for **X%** of total revenue *(concentration risk)*  
-- 📈 **Highest MoM growth:** YYYY-MM at **+X%**  
-- 🏆 **Best performing year:** 20XX with **$X** in total revenue  
+- 💰 **Total Revenue:** $2,261,536 | **Total Customers:** 793 | **Total Products:** 1861  
+- 🔁 **Repeat customers** generated **99.77%** of revenue 
+- 🌍 **West region** contributed the highest revenue share 
+- 📦 **Top 10 products** account for **10.82%** of total revenue *(concentration risk)*  
+- 📈 **Highest MoM growth:** 2015-03 at **+1121%**  
+- 🏆 **Best performing year:** 2018
 
 ---
 
